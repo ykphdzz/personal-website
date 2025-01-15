@@ -1,0 +1,23 @@
+/* styles/globals.css */
+
+/* @import rules must be at the very top */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font face */
+@font-face {
+  font-family: "Bandeins Sans & Strange Variable";
+  src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1566406079/BandeinsStrangeVariable_esetvq.ttf");
+}
+
+/* Global styles */
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #fffefb;
+  min-height: 250vh; /* 使用 min-height 而不是 height */
+}
